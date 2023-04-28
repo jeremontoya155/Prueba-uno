@@ -1,0 +1,111 @@
+#carta {
+  width: 300px;
+
+  height: 500px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  margin: 5% auto;
+}
+
+#simboloArriba {
+  display: inline-block;
+
+  position: relative;
+
+  left: 8px;
+
+  color: red;
+
+  font-size: 100px;
+
+  width: 60px;
+
+  height: 100px;
+}
+
+#numero {
+  color: white;
+
+  font-size: 120px;
+
+  width: 120px;
+
+  margin: 50px auto;
+
+  text-align: center;
+}
+
+#simboloAbajo {
+  float: right;
+
+  position: relative;
+
+  right: 10px;
+
+  bottom: -8px;
+
+  color: red;
+
+  font-size: 100px;
+
+  width: 60px;
+
+  height: 100px;
+
+  transform: rotate(-180deg);
+}
+
+#boton-nueva {
+  margin: auto;
+
+  width: 300px;
+
+  text-align: center;
+}
+
+.boton {
+  width: 150px;
+
+  font-size: 22px;
+
+  border-radius: 5px;
+
+  font-family: "Josefin Sans", sans-serif;
+
+  padding: 5px;
+}
+
+/* Estilos para pantallas más pequeñas que 414px (iPhone XR en modo vertical) */
+@media screen and (max-width: 414px) {
+  body {
+    font-size: 14px;
+  }
+  #carta {
+    width: 300px;
+    height: 450px;
+    margin: 5% auto;
+  }
+  #simboloArriba {
+    font-size: 80px;
+    width: 50px;
+    height: 80px;
+  }
+  #numero {
+    font-size: 100px;
+    width: 100px;
+    margin: 50px auto;
+  }
+  #simboloAbajo {
+    font-size: 80px;
+    width: 50px;
+    height: 80px;
+  }
+  .boton {
+    font-size: 22px;
+    width: 150px;
+    padding: 5px;
+  }
+}
